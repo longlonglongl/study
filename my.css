@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: #666;
+}
+
+.top text {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.main {
+    width: 100%;
+    height: 150px;
+}
+
+.main-left {
+    float: left;
+    width: 10%;
+    height: 100%;
+    border-bottom: 1px solid #fff;
+    background-color: #999;
+}
+
+.main-left text {
+    position: relative;
+    top:40%;
+    left:25%;
+    font-weight: bold;
+}
+
+.main-right {
+    float: right;
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-right text {
+    position: relative;
+    top: 5%;
+    left: 1%;
+}
